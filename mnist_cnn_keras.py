@@ -29,7 +29,7 @@ x_test = x_test.astype('float32')
 validation_data = validation_data.astype('float32')
 
 print('x_train shape:', x_train.shape)
-print(x_train.shape, 'train samples')
+print(x_train.shape[0], 'train samples')
 print(x_test.shape[0], 'test samples')
 
 # convert class vectors to binary class matrices
